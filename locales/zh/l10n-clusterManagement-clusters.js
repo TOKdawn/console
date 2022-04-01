@@ -42,5 +42,9 @@ module.exports = {
   ENV_PRODUCTION: '生产环境',
   ENV_DEVELOPMENT: '开发环境',
   ENV_TESTING: '测试环境',
-  ENV_DEMO: '演示环境'
+  ENV_DEMO: '演示环境',
+  UPDATE_KUBECONFIG: 'Update KubeConfig',
+  KUBE_CONFIG_IS_EXPIRED: 'KubeConfig has expired',
+  EXPIRE_DATE: 'Expiration Time',
+  LAST_KUBE_CONFIG_EXPIRED: 'KubeConfig expires in <span class="kubeConfig_expired">{count}</span> days'
 };
