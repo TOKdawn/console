@@ -36,5 +36,6 @@ module.exports = {
   SEARCH_BY_VERB: '按操作行为搜索',
   SEARCH_BY_STATUS_CODE: '按状态码搜索',
   SEARCH_BY_OPERATOR: '按操作者搜索',
-  SEARCH_BY_SOURCE_IP_ADDRESS: '按源 IP 地址搜索'
+  SEARCH_BY_SOURCE_IP_ADDRESS: '按源 IP 地址搜索',
+  SETTING_AUDIT_DESC: 'If K8s audit log collection is not enabled, go to <a href="{link}" target="_blank">ks-installer</a> to enable it.'
 };
