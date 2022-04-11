@@ -23,6 +23,10 @@ module.exports = {
   SET_DEFAULT_STORAGE_CLASS_TITLE: '设为默认存储类型',
   SET_AS_DEFAULT_STORAGE_CLASS: '设为默认存储类型',
   STORAGE_CLASS_SET_DEFAULT_DESC: '设置为默认存储类型后，如果没有特殊指定，系统将默认创建该类型的存储卷。一个 KubeSphere 集群中仅允许设置一个默认存储类型。',
+  // More > StorageClass Accessor
+  STORAGECLASS_ACCESSOR: 'Storageclass Accessor',
+  STORAGECLASS_ACCESSOR_SETTING: 'Storageclass Accessor Settings',
+  STORAGECLASS_ACCESSOR_DES: 'Users can create accessors to achieve namespace-level management on the storage class which provisions PVC.',
   // More > Volume Management
   VOLUME_MANAGEMENT: '存储卷管理',
   VOLUME_CLONE: '存储卷克隆',
